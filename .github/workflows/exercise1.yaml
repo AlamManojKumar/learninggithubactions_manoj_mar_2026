@@ -12,3 +12,7 @@ jobs:
        steps:
            - name: learning
              run: "echo hello how are you"
+           - name: welcome
+             run: "echo Welcome to github actions"
+           - name: listenvvariables
+             run:  printenv
