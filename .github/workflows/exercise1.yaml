@@ -16,8 +16,15 @@ jobs:
              run: " echo hello how are you manoj"
            - name: welcome to github cicd pipeline
              run:  " echo Welcome to github make pipeline "  
+<<<<<<< Updated upstream
            - name:  env
              run:  printenv
+=======
+           - name: welcome to cicd pipeline
+             run: "echo  Welcome to cicd pipeline "
+           - name: list env
+             run:  print env
+>>>>>>> Stashed changes
            - name: welcome to devops learning
              run:  "echo devops learning "
            - name: welcome to multicloud
