@@ -1,0 +1,25 @@
+---
+name: exercise2
+on:
+  push:
+    branches: main
+
+jobs:
+  learning:
+    name: learning how to write the jobs
+    runs-on: ubuntu-latest
+    steps:
+      - name: i need to learn github actions yaml file.
+        run: echo "today i am learning github actions yaml file."
+
+      - name: i need to learn what is use of trigger.
+        run: echo "i need to learn what is use of on."
+
+      - name: i need to learn what is use of on keyword.
+        run: echo "i need to learn what is use of on."
+
+      - name: i need to learn what is use of on.
+        run: echo "i need to learn what is use of on."
+
+      - name: i need to learn what is use of jobs.
+        run: echo "i need to learn what is the use of jobs"
