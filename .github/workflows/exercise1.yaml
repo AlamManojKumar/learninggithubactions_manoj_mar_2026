@@ -22,6 +22,14 @@ jobs:
              run: "echo  Welcome to cicd pipeline "
            - name: print environment variable
              run:  print env
+           - name: welcome to devops learning
+             run:  "echo devops learning "
+            
+           - name: welcome to multicloud
+             run: "echo multi cloud "
+
+           
+
 
 
            
