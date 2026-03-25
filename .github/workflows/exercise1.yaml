@@ -13,18 +13,13 @@ jobs:
            - name: learning
              run: "echo hello how are you"
            - name: learning Purpose
-             run: " echo hello how are you "
-           - name: welcome
-             run: " echo  Welcome to  actions "
+             run: " echo hello how are you manoj"
            - name: welcome to github cicd pipeline
              run:  " echo Welcome to github make pipeline "  
-           - name: welcome to cicd pipeline
-             run: "echo  Welcome to cicd pipeline "
-           - name: print environment variable
-             run:  print env
+           - name:  env
+             run:  printenv
            - name: welcome to devops learning
              run:  "echo devops learning "
-            
            - name: welcome to multicloud
              run: "echo multi cloud "
 
