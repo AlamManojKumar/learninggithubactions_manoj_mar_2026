@@ -20,7 +20,7 @@ jobs:
              run:  " echo Welcome to github make pipeline "  
            - name: welcome to cicd pipeline
              run: "echo  Welcome to cicd pipeline "
-           - name: print environment variable
+           - name: list env
              run:  print env
            - name: welcome to devops learning
              run:  "echo devops learning "
