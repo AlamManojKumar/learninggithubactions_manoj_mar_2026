@@ -22,4 +22,6 @@ jobs:
              run: "echo Thank you cicd pipeline"
            - name: Run the cicd pipeline
              run: "echo Run the pipeline"
+           - name: env
+             run: printenv
            
