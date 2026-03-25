@@ -1,0 +1,13 @@
+---
+name: exercise-3
+
+on: 
+   push:
+       branches:
+           - dev
+jobs:
+    exercise3:
+        runs-on: ubuntu-latest
+        steps:
+            - name: ping test
+              run: ping -c 4 google.com
