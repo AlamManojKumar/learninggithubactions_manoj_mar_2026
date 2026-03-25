@@ -10,17 +10,16 @@ jobs:
        name: learning how to write the job
        runs-on: ubuntu-latest
        steps:
-           - name: learning.
-             run: "echo hello how are you."
+           - name: learning
+             run: "echo hello how are you"
            - name: welcome
-             run: "echo Welcome to github actions"
-           - name: welcome to github cicd pipeline
-             run: "echo Welcome to github cicd pipeline."  
-           - name: welcome to cicd pipeline.
-             run: "echo Welcome to cicd pipeline."
-           - name: Thank you cicd pipeline.
-             run: "echo Thank you cicd pipeline."
-           - name: Run the cicd pipeline.
-             run: "echo Run the cicd pipeline."
-           - name: listenvvariables.
-             run:  printenv.
+             run: "echo Welcome to actions"  
+           - name: welcome to cicd pipeline
+             run: "echo Welcome to cicd pipeline"
+           - name: Thank you cicd pipeline
+             run: "echo Thank you cicd pipeline"
+           - name: Run the cicd pipeline
+             run: "echo Run the pipeline"
+           - name: list the env variables
+             run: print envvar
+           
