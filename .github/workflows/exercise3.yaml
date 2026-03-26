@@ -10,4 +10,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: ping test
-              run: ping -c 4 google.com
+              run:  curl -I https://google.com
+            - name: check url exist
+              run:  wget --spider https://google.com
+            - name: test the ping command
+              run:  ping -c 4 google.com
